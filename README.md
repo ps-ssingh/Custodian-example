@@ -26,7 +26,7 @@ Before using Cloud Custodian, ensure the following:
    pip install c7n
 
 2. Check custodian -h to understand all your options e.g
-```bash
+  ```bash
   custodian -h 
   usage: custodian [-h] {run,schema,report,logs,metrics,version,validate} ...
 
