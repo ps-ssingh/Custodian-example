@@ -26,6 +26,8 @@ Before using Cloud Custodian, ensure the following:
    pip install c7n
 
 2. Check custodian -h to understand all your options e.g
+
+   
   ```bash
   custodian -h 
   usage: custodian [-h] {run,schema,report,logs,metrics,version,validate} ...
@@ -43,7 +45,7 @@ Before using Cloud Custodian, ensure the following:
       version             Display installed version of custodian
       validate            Validate config files against the json schema
 
-
+```
 
 
 4. Configure AWS SSO by providing AWS_SECRET_ACCESS_KEY and AWS_ACCESS_KEY_ID
