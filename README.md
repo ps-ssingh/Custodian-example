@@ -27,21 +27,21 @@ Before using Cloud Custodian, ensure the following:
 
 2. Check custodian -h to understand all your options e.g
 ```bash
-custodian -h 
-usage: custodian [-h] {run,schema,report,logs,metrics,version,validate} ...
+  custodian -h 
+  usage: custodian [-h] {run,schema,report,logs,metrics,version,validate} ...
 
-Cloud Custodian - Cloud fleet management
+  Cloud Custodian - Cloud fleet management
 
-options:
-  -h, --help            show this help message and exit
+  options:
+    -h, --help            show this help message and exit
 
-commands:
-  {run,schema,report,logs,metrics,version,validate}
-    run                 Execute the policies in a config file
-    schema              Interactive cli docs for policy authors
-    report              Tabular report on policy matched resources
-    version             Display installed version of custodian
-    validate            Validate config files against the json schema
+  commands:
+    {run,schema,report,logs,metrics,version,validate}
+      run                 Execute the policies in a config file
+      schema              Interactive cli docs for policy authors
+      report              Tabular report on policy matched resources
+      version             Display installed version of custodian
+      validate            Validate config files against the json schema
 
 
 
