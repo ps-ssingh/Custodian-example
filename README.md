@@ -50,7 +50,7 @@ Before using Cloud Custodian, ensure the following:
 
 4. Configure AWS SSO by providing AWS_SECRET_ACCESS_KEY and AWS_ACCESS_KEY_ID
 
-5. Create a custodian.yml file specifying the resources you want to take action on. We have taken a simple example of EC instance which is having tag Custodian-test
+5. Create a custodian.yml file specifying the resources you want to take action on. We have taken a simple example of EC2 instance which is having tag Custodian-test
 
 6. Validate the yaml file
    ```bash
